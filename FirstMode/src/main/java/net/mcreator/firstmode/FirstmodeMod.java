@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.firstmode.init.FirstmodeModItems;
+import net.mcreator.firstmode.init.FirstmodeModEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,9 @@ public class FirstmodeMod {
 	public FirstmodeMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		FirstmodeModItems.REGISTRY.register(bus);
+		FirstmodeModEntities.REGISTRY.register(bus);
 
 	}
 
