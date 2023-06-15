@@ -1,4 +1,14 @@
 {
+  "item.firstmode.vulkan_armor_chestplate": "Vulkan Armor Chestplate",
+  "item_group.firstmode.vulkan_mod": "Vulkan Mod",
+  "item.firstmode.vulkan_scale": "Vulkan Scale",
+  "item.firstmode.vulkan_magnet": "Vulkan Magnet",
+  "item.firstmode.vulkan_armor_helmet": "Vulkan Armor Helmet",
+  "item.firstmode.vulkan_spawn_egg": "Vulkan Spawn Egg",
+  "item.firstmode.vulkan_sword": "Vulkan Sword",
+  "item.firstmode.vulkan_pickaxe": "Vulkan Pickaxe",
   "entity.firstmode.vulkan": "Vulkan",
-  "item.firstmode.vulkan_spawn_egg": "Vulkan Spawn Egg"
+  "item.firstmode.vulkan_armor_leggings": "Vulkan Armor Leggings",
+  "item.firstmode.vulkan_armor_boots": "Vulkan Armor Boots",
+  "item.firstmode.vulkan_axe": "Vulkan Axe"
 }

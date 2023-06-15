@@ -24,7 +24,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:VulkanMod"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -47,14 +47,14 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Mob",
+    "mobBehaviourType": "Creature",
     "mobCreatureType": "WATER",
     "attackStrength": 3,
     "attackKnockback": 0.2,
     "knockbackResistance": 0.5,
-    "movementSpeed": 1.0,
-    "stepHeight": 0.6,
-    "armorBaseValue": 0.5,
+    "movementSpeed": 0.30000000000000004,
+    "stepHeight": 1.0,
+    "armorBaseValue": 2.0,
     "trackingRange": 64,
     "followRange": 16,
     "health": 10,
@@ -82,7 +82,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:VulkanScale"
     },
     "livingSound": {
       "value": "ambient.cave"
@@ -112,10 +112,29 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "waterCreature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "restrictionBiomes": [
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_frozen_ocean"
+      },
+      {
+        "value": "deep_lukewarm_ocean"
+      },
+      {
+        "value": "deep_warm_ocean"
+      }
+    ],
+    "spawnInDungeons": true
   }
 }

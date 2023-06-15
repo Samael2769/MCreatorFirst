@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Vulkan Mod",
+    "icon": {
+      "value": "CUSTOM:VulkanScale"
+    },
+    "showSearch": false
+  }
+}

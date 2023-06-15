@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "vulkan",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "2": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "3": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "5": {
+      "item": "firstmode:vulkan_scale"
+    }
+  },
+  "result": {
+    "item": "firstmode:vulkan_armor_boots",
+    "count": 1
+  }
+}

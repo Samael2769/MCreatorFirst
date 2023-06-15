@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "vulkan",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "1": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "2": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "3": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "5": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "6": {
+      "item": "firstmode:vulkan_scale"
+    },
+    "8": {
+      "item": "firstmode:vulkan_scale"
+    }
+  },
+  "result": {
+    "item": "firstmode:vulkan_armor_leggings",
+    "count": 1
+  }
+}
