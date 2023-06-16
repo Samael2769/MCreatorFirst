@@ -10,10 +10,10 @@
     "solidBoundingBox": {
       "fixedValue": false
     },
-    "modelWidth": 1.5,
-    "modelHeight": 2.0,
+    "modelWidth": 1.0,
+    "modelHeight": 0.19999999999999998,
     "modelShadowSize": 0.5,
-    "mountedYOffset": 0.0,
+    "mountedYOffset": 0.2,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -1,
@@ -66,8 +66,8 @@
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
-    "canControlForward": false,
-    "canControlStrafe": false,
+    "canControlForward": true,
+    "canControlStrafe": true,
     "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
@@ -96,12 +96,19 @@
     "stepSound": {
       "value": ""
     },
+    "onRightClickedOn": {
+      "name": "VulkanMagnetRightclicked"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
-    "breedable": false,
-    "tameable": false,
-    "breedTriggerItems": [],
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"-14\" y=\"51\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "CUSTOM:VulkanMagnet"
+      }
+    ],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""

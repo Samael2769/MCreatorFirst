@@ -1,0 +1,272 @@
+{
+  "mod_elements": [
+    {
+      "name": "Vulkan",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/firstmode/models/item/vulkan_spawn_egg.json",
+          "src/main/resources/data/firstmode/forge/biome_modifier/vulkan_biome_modifier.json",
+          "src/main/java/net/mcreator/firstmode/client/renderer/VulkanRenderer.java",
+          "src/main/java/net/mcreator/firstmode/entity/VulkanEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VulkanScale",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_scale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/firstmode/models/item/vulkan_scale.json",
+          "src/main/java/net/mcreator/firstmode/item/VulkanScaleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VulkanMod",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VulkanArmor",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/firstmode/models/item/vulkan_armor_boots.json",
+          "src/main/java/net/mcreator/firstmode/item/VulkanArmorItem.java",
+          "src/main/resources/assets/firstmode/models/item/vulkan_armor_leggings.json",
+          "src/main/resources/assets/firstmode/models/item/vulkan_armor_helmet.json",
+          "src/main/resources/assets/firstmode/models/item/vulkan_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "VulkanHelmet",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/firstmode/recipes/vulkan_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "VulkanChest",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/firstmode/recipes/vulkan_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "VulkanLegs",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/firstmode/recipes/vulkan_legs.json"
+        ]
+      }
+    },
+    {
+      "name": "VulkanShoes",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/firstmode/recipes/vulkan_shoes.json"
+        ]
+      }
+    },
+    {
+      "name": "VulkanSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/firstmode/item/VulkanSwordItem.java",
+          "src/main/resources/assets/firstmode/models/item/vulkan_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "VukanSword",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vukan_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/firstmode/recipes/vukan_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "VulkanPickaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/firstmode/models/item/vulkan_pickaxe.json",
+          "src/main/java/net/mcreator/firstmode/item/VulkanPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VulkanPick",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_pick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/firstmode/recipes/vulkan_pick.json"
+        ]
+      }
+    },
+    {
+      "name": "VulkanAxe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/firstmode/models/item/vulkan_axe.json",
+          "src/main/java/net/mcreator/firstmode/item/VulkanAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VulkanAx",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_ax",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/firstmode/recipes/vulkan_ax.json"
+        ]
+      }
+    },
+    {
+      "name": "VulkanMagnetRightclicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_magnet_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/firstmode/procedures/VulkanMagnetRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VulkanMagnet",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulkan_magnet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/firstmode/item/VulkanMagnetItem.java",
+          "src/main/resources/assets/firstmode/models/item/vulkan_magnet.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.firstmode.vulkan_armor_chestplate": "Vulkan Armor Chestplate",
+      "item_group.firstmode.vulkan_mod": "Vulkan Mod",
+      "item.firstmode.vulkan_scale": "Vulkan Scale",
+      "item.firstmode.vulkan_magnet": "Vulkan Magnet",
+      "item.firstmode.vulkan_armor_helmet": "Vulkan Armor Helmet",
+      "item.firstmode.vulkan_spawn_egg": "Vulkan Spawn Egg",
+      "item.firstmode.vulkan_sword": "Vulkan Sword",
+      "item.firstmode.vulkan_pickaxe": "Vulkan Pickaxe",
+      "entity.firstmode.vulkan": "Vulkan",
+      "item.firstmode.vulkan_armor_leggings": "Vulkan Armor Leggings",
+      "item.firstmode.vulkan_armor_boots": "Vulkan Armor Boots",
+      "item.firstmode.vulkan_axe": "Vulkan Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "firstmode",
+    "modName": "firstMode",
+    "version": "1.0.0",
+    "author": "disor, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.mcreator.firstmode",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300223515
+}

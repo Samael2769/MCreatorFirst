@@ -23,7 +23,7 @@ import net.mcreator.firstmode.FirstmodeMod;
 public class FirstmodeModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, FirstmodeMod.MODID);
 	public static final RegistryObject<EntityType<VulkanEntity>> VULKAN = register("vulkan",
-			EntityType.Builder.<VulkanEntity>of(VulkanEntity::new, MobCategory.WATER_CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(VulkanEntity::new).fireImmune().sized(1.5f, 2f));
+			EntityType.Builder.<VulkanEntity>of(VulkanEntity::new, MobCategory.WATER_CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(VulkanEntity::new).fireImmune().sized(1f, 0.2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
